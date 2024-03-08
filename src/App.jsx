@@ -20,22 +20,22 @@ const App = () => {
         </p>
 
         <nav className={AppStyle['header-menu']}>
-          <Link to={'/Portfolio'}>Главная</Link>
-          <Link to={'/Portfolio/Services'}>Услуги</Link>
-          <Link to={'/Portfolio/Portfolio'}>Портфолио</Link>
-          <Link to={'/Portfolio/Contacts'}>Контакты</Link>
+          <Link to={'/portfolio'}>Главная</Link>
+          <Link to={'/portfolio/Services'}>Услуги</Link>
+          <Link to={'/portfolio/Portfolio'}>Портфолио</Link>
+          <Link to={'/portfolio/Contacts'}>Контакты</Link>
         </nav>
       </header>
 
       <main className={AppStyle['main']}>
         <Routes>
-          <Route path="/Portfolio" index element={<Home />} />
+          <Route path="/portfolio" index element={<Home />} />
 
-          <Route path="/Portfolio/Services" element={<Services />} />
+          <Route path="/portfolio/Services" element={<Services />} />
 
-          <Route path="/Portfolio/Portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/Portfolio" element={<Portfolio />} />
 
-          <Route path="/Portfolio/Contacts" element={<Contacts />} />
+          <Route path="/portfolio/Contacts" element={<Contacts />} />
         </Routes>
       </main>
 

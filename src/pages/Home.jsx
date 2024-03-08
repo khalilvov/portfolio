@@ -21,7 +21,7 @@ const Home = () => {
             ВебКадеми. За это время сделал несколько проектов по верстке и
             сайтам под ключ. Найти их вы сможете в моем{' '}
             <Link
-              to={'/Portfolio/Portfolio'}
+              to={'/portfolio/portfolio'}
               className={HomeStyle['about-link']}
             >
               портфолио.
