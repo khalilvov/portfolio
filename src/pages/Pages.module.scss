@@ -38,6 +38,12 @@
   margin-bottom: 20px;
 }
 
+.article{
+    & > * + * {
+        margin-top: 25px;
+    }
+}
+
 .article-item-text {
   color: #797979;
 }
