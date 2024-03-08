@@ -46,26 +46,6 @@ const Portfolio = () => {
             Смотреть работу
           </a>
         </section>
-
-        <section className={PortfolioStyle['article-item']}>
-          <h3 className={PortfolioStyle['title-3']}>Filmateka</h3>
-
-          <div className={PortfolioStyle['article-item-image']}>
-            <img src="/portfolio/film.jpg" alt="portfolio image" />
-          </div>
-
-          <p className={PortfolioStyle['article-item-text']}>
-            JavaScript loyha. Form validatsiya.
-          </p>
-
-          <a
-            href="https://khalilvov.github.io/Filmateka/"
-            target="_blank"
-            className={PortfolioStyle['article-item-link']}
-          >
-            Смотреть работу
-          </a>
-        </section>
         <section className={PortfolioStyle['article-item']}>
           <h3 className={PortfolioStyle['title-3']}>Chat</h3>
 
